@@ -1,5 +1,5 @@
 # TheBlogChain
 
-## Official Website: TheBlogChain.in[Website]
+## Official Website: [TheBlogChain.in][website]
 
-Website: [https://sarthakhanda.github.io/theblogchain/]
+[website]: https://sarthakhanda.github.io/theblogchain/
