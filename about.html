@@ -5,7 +5,7 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>About - Philosophy</title>
+    <title>About - TheBlogChain</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -27,8 +27,8 @@
 
     <!-- favicons
     ================================================== -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
 
 </head>
 
@@ -39,9 +39,6 @@
     <div class="s-pageheader">
         <header class="header"></header> <!-- header -->
     </div> <!-- end s-pageheader -->
-    <script>
-        $( ".header" ).load( "header.html");
-    </script>
 
 
     <!-- s-content
@@ -181,7 +178,7 @@
             </div> <!-- end popular -->
             
             <div class="col-four md-six tab-full about">
-                <h3>About Philosophy</h3>
+                <h3>About TheBlogchain</h3>
 
                 <p>
                 Donec sollicitudin molestie malesuada. Nulla quis lorem ut libero malesuada feugiat. Pellentesque in ipsum id orci porta dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec sollicitudin molestie malesuada.
@@ -231,9 +228,7 @@
     <!-- s-footer
     ================================================== -->
     <footer class="s-footer"></footer>
-    <script>
-        $( ".s-footer" ).load( "footer.html");
-    </script>
+
 
     <!-- preloader
     ================================================== -->
@@ -255,6 +250,10 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        $(".header").load( "header.html");
+        $(".s-footer").load( "footer.html");
+    </script>
 
 </body>
 

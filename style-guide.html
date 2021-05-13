@@ -5,7 +5,7 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Style Guide - Philosophy</title>
+    <title>Style Guide - TheBlogchain</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -39,8 +39,8 @@
 
     <!-- favicons
     ================================================== -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
 
 </head>
 
@@ -51,9 +51,6 @@
     <div class="s-pageheader">
         <header class="header"></header> <!-- header -->
     </div> <!-- end s-pageheader -->
-    <script>
-        $( ".header" ).load( "header.html");
-    </script>
 
 
     <!-- styles
@@ -539,9 +536,6 @@
     <!-- s-footer
     ================================================== -->
     <footer class="s-footer"></footer>
-    <script>
-        $(".s-footer" ).load( "footer.html");
-    </script>
     
 
     <!-- preloader
@@ -564,6 +558,10 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        $(".header").load( "header.html");
+        $(".s-footer").load( "footer.html");
+    </script>
 
 </body>
 

@@ -4,7 +4,7 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Blogchain</title>
+    <title>TheBlogchain</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -23,6 +23,7 @@
     <script src="js/modernizr.js"></script>
     <script src="js/pace.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    
 
     <!-- favicons
     ================================================== -->
@@ -35,11 +36,7 @@
     <!-- pageheader
     ================================================== -->
     <section class="s-pageheader s-pageheader--home">
-
         <header class="header"></header>
-        <script>
-            $( ".header" ).load( "header.html");
-        </script>
 
         <div class="pageheader-content row">
             <div class="col-full">
@@ -679,11 +676,8 @@
     <!-- s-footer
     ================================================== -->
     <footer class="s-footer"></footer>
-    <script>
-        $(".s-footer" ).load( "footer.html");
-    </script>
 
-
+    
     <!-- preloader
     ================================================== -->
     <div id="preloader">
@@ -704,6 +698,10 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        $(".header").load( "header.html");
+        $(".s-footer").load( "footer.html");
+    </script>
 
 </body>
 
