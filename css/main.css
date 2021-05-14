@@ -1978,12 +1978,12 @@ body.search-is-visible {
  * ## header search trigger
  * ------------------------------------------------------------------- */
 .header__search-trigger {
-   height: 21px;
-   min-width: 21px;
+   height: 25px;
+   min-width: 25px;
    position: absolute;
    right: 20px;
    top: 15px;
-   background-image: url(../images/icons/icon-search.svg);
+   background-image: url(../images/icons/png/icon-login.png);
    background-repeat: no-repeat;
    background-position: right center;
    background-size: contain;
@@ -1994,8 +1994,8 @@ body.search-is-visible {
    font-size: 12px;
    text-transform: uppercase;
    letter-spacing: 2px;
-   line-height: 21px;
-   content: "Search";
+   line-height: 25px;
+   content: "Login";
    display: block;
    color: #FFFFFF;
    float: left;
